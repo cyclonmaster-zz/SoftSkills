@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0000aa"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:stretchColumns="*" >
+
+	<TableRow>    
+   	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button android:text="Home"
+    android:id="@+id/buttonhome"
+    android:layout_width="wrap_content"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button> 
+    <Button android:text="Back"
+    android:id="@+id/buttonback"
+    android:layout_width="wrap_content"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button> 
+   	</LinearLayout>
+	</TableRow>
+	
+	<TableRow>
+	<TextView
+    android:textColor="#aaaa00"
+    android:textSize="09pt"
+    android:textStyle="bold"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="Leadership Skill (LS)"/>
+    </TableRow>
+
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text=""/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="LS1: Have basic leadearship skill" />
+	</TableRow>
+
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="LS2: Ability to lead project"/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="LS3: Abiliity to undrerstand and take purp rotatively as leader and member" />
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="LS4: Ability to supervise group member" />
+	</TableRow>
+	
+</TableLayout>

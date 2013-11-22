@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0000aa"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:stretchColumns="*" >
+
+    <TableRow>
+   	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">    
+    <Button android:text="Home"
+    android:id="@+id/buttonhome"
+    android:layout_width="wrap_content"
+    android:textSize="12px"
+    android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    </TableRow>
+
+	<TableRow>
+	<TextView 
+    android:gravity="center_horizontal"
+    android:textColor="#aaaa00"
+    android:textSize="09pt"
+    android:textStyle="bold"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="Select Soft Skills:" />
+    </TableRow>
+
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text=""/>
+	</TableRow>
+
+	<TableRow>    
+   	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button android:text="1.Critical Thinking Skills(CT)"
+    android:id="@+id/buttoncts"
+    android:layout_width="fill_parent"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button> 
+    <Button android:text="2.Communication Skills(CS)"
+    android:id="@+id/buttoncs"
+    android:layout_width="fill_parent"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button> 
+    <Button android:text="3.Social/Teamwork Skills(TS)"
+    android:id="@+id/buttonss"
+    android:layout_width="fill_parent"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="4.Ethics/Professionalisme Skill(EM)"
+    android:id="@+id/buttonpe"
+    android:layout_width="fill_parent"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="5.Lifelong Learning Skill(LL)"
+    android:id="@+id/buttonll"
+    android:layout_width="fill_parent"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="6.Entreprenourship Skill(KK)"
+    android:id="@+id/buttones"
+    android:layout_width="fill_parent"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="7.Leadership Skills(LS)"
+    android:id="@+id/buttonls"
+    android:layout_width="fill_parent"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button>    
+   	</LinearLayout>
+	</TableRow>
+	
+</TableLayout>

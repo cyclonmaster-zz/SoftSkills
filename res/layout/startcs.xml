@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0000aa"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:stretchColumns="*" >
+
+	<TableRow>    
+   	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button android:text="Home"
+    android:id="@+id/buttonhome"
+    android:layout_width="wrap_content"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button> 
+    <Button android:text="Back"
+    android:id="@+id/buttonback"
+    android:layout_width="wrap_content"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button> 
+   	</LinearLayout>
+	</TableRow>
+	
+	<TableRow>
+	<TextView
+    android:textColor="#aaaa00"
+    android:textSize="09pt"
+    android:textStyle="bold"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="Communication skills (CS)"/>
+    </TableRow>
+
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text=""/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="CS1: Ability to convey idea clearly, effectively with fconfidence, verbally or in written" />
+	</TableRow>
+
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="CS2: Ability to aplly active listening skill and give feedback"/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="CS3: Ablity to  convey presentation clearly with confidence and approprite with the audenience level" />
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="CS4: Ability to use tecknology in presentation" />
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="CS5: Abilty to negotiate and reach the aggrementment" />
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="CS6: Ability to communicate with participant with different culture" />
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="CS7: Ablity to expang persinal communication skill" />
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="CS8: Abilty to use non verbal skill" />
+	</TableRow>		
+	
+</TableLayout>

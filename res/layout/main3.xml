@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:stretchColumns="*" >
+
+	<TableRow>    
+   	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button android:text="Home"
+    android:id="@+id/buttonhome"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="wrap_content">
+    </Button>
+
+    <Button android:text="Start"
+    android:id="@+id/buttonstart"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="Credits"
+    android:id="@+id/buttoncredits"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="wrap_content">
+    </Button>
+    
+    </LinearLayout>
+	</TableRow>
+    <TableRow>    
+   	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button android:text="Soft Skills"
+    android:id="@+id/buttonsoft"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="wrap_content">
+    </Button> 
+    <Button android:text="Learning Outcomes"
+    android:enabled="false"    
+    android:id="@+id/buttonlearn"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="fill_parent">
+    </Button>
+   	</LinearLayout>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textColor="#aaaa00"
+    android:textSize="09pt"
+    android:textStyle="bold"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="Learning Outcomes (LO):" />
+    </TableRow>
+
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text=""/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="A statement on what students have to know, understand and / or can do upon the completion of a period of study." />
+	</TableRow>
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text=""/>
+	</TableRow>	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="Learning outcomes are references for standard and quality as well as the development of curriculum in terms of teaching and learning, the determined credits and assessment of students." />
+	</TableRow>
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text=""/>
+	</TableRow>	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="Emphasizes 8 domains of learning outcomes, which is significant for Malaysia.***professional courses eg. medicine, pharmacy, engineering, nursing etc may have more than 8 as required by the accreditation bodies." />
+	</TableRow>
+
+</TableLayout>

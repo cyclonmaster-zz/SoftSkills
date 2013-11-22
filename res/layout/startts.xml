@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0000aa"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:stretchColumns="*" >
+
+	<TableRow>    
+   	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button android:text="Home"
+    android:id="@+id/buttonhome"
+    android:layout_width="wrap_content"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button> 
+    <Button android:text="Back"
+    android:id="@+id/buttonback"
+    android:layout_width="wrap_content"
+    android:textSize="12px"
+    android:layout_height="wrap_content">
+    </Button> 
+   	</LinearLayout>
+	</TableRow>
+	
+	<TableRow>
+	<TextView
+    android:textColor="#aaaa00"
+    android:textSize="09pt"
+    android:textStyle="bold"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="Teamwork Skill (TS)"/>
+    </TableRow>
+
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text=""/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="TS1: Ability to built goo relationship, interact with other people and working effectively in group to attain same objective" />
+	</TableRow>
+
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="TS2: Ability to understand and take role as temaleader and follower"/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="TS3: Ability to identify and respect the attitude, action and believe of others" />
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="TS4: Ability to give contribution to planning and synchronise group effort" />
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="TS5: responsible to group decision" />
+	</TableRow>
+	
+</TableLayout>

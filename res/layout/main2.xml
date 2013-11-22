@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:stretchColumns="*" >
+
+	<TableRow>    
+   	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button android:text="Home"
+    android:id="@+id/buttonhome"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="wrap_content">
+    </Button>
+
+    <Button android:text="Start"
+    android:id="@+id/buttonstart"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="wrap_content">
+    </Button>
+    <Button android:text="Credits"
+    android:id="@+id/buttoncredits"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="wrap_content">
+    </Button>
+    
+    </LinearLayout>
+	</TableRow>
+    <TableRow>    
+   	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button android:text="Soft Skills"
+    android:enabled="false"
+    android:id="@+id/buttonsoft"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="wrap_content">
+    </Button> 
+    <Button android:text="Learning Outcomes"
+    android:id="@+id/buttonlearn"
+    android:layout_width="wrap_content"
+    android:textSize="13px"
+    android:layout_height="fill_parent">
+    </Button>
+   	</LinearLayout>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textColor="#aaaa00"
+    android:textStyle="bold"
+    android:textSize="09pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="7 elements of soft skills:"/>
+    </TableRow>
+
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text=""/>
+	</TableRow>
+	
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="1. Critical Thinking Skills"/>
+	</TableRow>
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="2. Communication Skills"/>
+	</TableRow>
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="3. Social Skills"/>
+	</TableRow>
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="4. Professionalism, Values, Attitudes and Ethics"/>
+	</TableRow>
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="5. Lifelong Learning and Information Management"/>
+	</TableRow>
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="6. Entrepreneurship skills"/>
+	</TableRow>
+	<TableRow>
+	<TextView 
+    android:textSize="08pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+	android:text="7. Leadership Skills"/>
+	</TableRow>
+	
+</TableLayout>
